@@ -1,15 +1,15 @@
 #include <WiFi.h>
 #include <ESP32_MailClient.h>
 
-#define WIFI_SSID "Flat_6"
-#define WIFI_PASSWORD "11223344"
+#define WIFI_SSID "Enter Wifi name"
+#define WIFI_PASSWORD "Enter Wfi password"
 
 #define SMTP_HOST "smtp.gmail.com"
 #define SMTP_PORT 465
 
-#define AUTHOR_EMAIL "gopikagopakumarg@gmail.com"
-#define AUTHOR_PASSWORD "nopasswordspls"
-#define RECIPIENT_EMAIL "nobusiness159@gmail.com"
+#define AUTHOR_EMAIL "Enter senter's email"
+#define AUTHOR_PASSWORD "Enter password here"
+#define RECIPIENT_EMAIL "Enter receiver's email"
 
 SMTPSession smtp;
 SMTP_Message message;
